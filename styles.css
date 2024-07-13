@@ -1,0 +1,38 @@
+body {
+  width: 300px;
+  padding: 10px;
+}
+
+#tabs-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#tabs-list div {
+  cursor: pointer;
+  padding: 5px;
+}
+
+#tabs-list div:hover {
+  background-color: #f0f0f0;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#volume-slider {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
